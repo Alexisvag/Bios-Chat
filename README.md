@@ -81,7 +81,7 @@ Clonar repositorio:
 ```bash
 git clone https://github.com/TU_USUARIO/bios-chat-rag.git
 cd bios-chat-rag
-
+```
 
 Crear entorno virtual:
 
