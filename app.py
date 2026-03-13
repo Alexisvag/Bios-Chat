@@ -13,6 +13,15 @@ st.set_page_config(page_title="Bios Chat")
 
 st.title("Analista de Documentos")
 
+import streamlit as st
+
+st.title("BIOS CHAT RAG")
+
+api_key = st.text_input(
+    "Ingrese su API Key de Gemini",
+    type="password"
+)
+
 init_chat()
 
 uploaded_files = st.file_uploader(
