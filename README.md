@@ -1,4 +1,4 @@
-# 📄 BIOS CHAT — Analizador de Documentos
+# 📄 Bios Chat — Analizador de Documentos
 
 ## 📌 Descripción
 
@@ -50,7 +50,7 @@ Usuario → Interfaz Streamlit → Cargador de documentos → Splitter → Embed
 ## 📂 Estructura del proyecto
 
 ```
-bios-chat-rag/
+bios-chat/
 │
 ├── app.py
 ├── requirements.txt
