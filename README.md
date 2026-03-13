@@ -85,41 +85,52 @@ cd bios-chat-rag
 
 Crear entorno virtual:
 
+```bash
 python -m venv .venv
+```
 
 Activar:
 
 Windows
-
+```bash
 .venv\Scripts\activate
+```
 
 Linux / Mac
-
+```bash
 source .venv/bin/activate
+```
 
 Instalar dependencias:
-
+```bash
 pip install -r requirements.txt
+```
+
 🔑 Variables de entorno
 
 Crear archivo .env
-
+```bash
 .env
+```
 
 Contenido:
-
+```bash
 GOOGLE_API_KEY=TU_API_KEY
+```
 
 Obtener API Key:
 
 https://aistudio.google.com/app/apikey
 
 ▶️ Ejecutar la aplicación
+```bash
 streamlit run app.py
-
+```
 Abrir en navegador:
 
+```bash
 http://localhost:8501
+```
 
 Subir documento y hacer preguntas.
 
