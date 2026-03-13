@@ -80,7 +80,7 @@ bios-chat-rag/
 Clonar repositorio:
 
 ```bash
-git clone https://github.com/TU_USUARIO/bios-chat-rag.git
+git clone https://github.com/Alexisvag/Bios-Chat/.git
 cd bios-chat-rag
 ```
 
