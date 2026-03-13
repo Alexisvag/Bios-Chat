@@ -169,9 +169,6 @@ Uso de Gemini como LLM por su buen rendimiento y fácil integración mediante AP
 - Streamlit  
 Uso de Streamlit para construir una interfaz interactiva tipo chat de forma rápida.
 
-- dotenv  
-Uso de variables de entorno para manejar credenciales de forma segura.
-
 - LangChain (LCEL)  
 Uso de LangChain Expression Language para construir pipelines RAG modulares.
 
@@ -184,14 +181,26 @@ Uso de prompts restringidos para obligar al modelo a responder solo con el conte
 🚀 Posibles mejoras futuras
 
 - Memoria conversacional
+  Implementar almacenamiento temporal o persistente para mantener el contexto de conversación entre interacciones.
+
 - Persistencia de índices
-- API con FastAPI
+  Guardar embeddings y vectores en disco o nube para evitar recomputar cada vez.
+
 - Dockerización
-- Autenticación
-- Multiusuario
-- Despliegue en nube
-- Logging
-- Tests unitarios
+  Contenerizar la aplicación para despliegue reproducible y escalable.
+
+- Autenticación y multiusuario
+  Permitir acceso seguro y sesiones independientes para varios usuarios.
+
+- Despliegue en la nube
+  Escalar la aplicación y permitir acceso remoto.
+
+- Logging y monitoreo
+  Registrar eventos y errores para facilitar mantenimiento.
+
 - Streaming de respuestas
+  Mostrar progresivamente la respuesta generada por el LLM para mejor experiencia de usuario.
+
 - Filtros por metadata
+  Permitir búsquedas más precisas usando información adicional de los documentos.
 
