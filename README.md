@@ -109,16 +109,6 @@ pip install -r requirements.txt
 
 🔑 Variables de entorno
 
-Crear archivo .env
-```bash
-.env
-```
-
-Contenido:
-```bash
-GOOGLE_API_KEY=TU_API_KEY
-```
-
 Obtener API Key:
 
 https://aistudio.google.com/app/apikey

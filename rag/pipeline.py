@@ -8,11 +8,11 @@ from langchain_core.runnables import RunnablePassthrough
 from langchain_core.output_parsers import StrOutputParser
 
 
-def build_rag_chain(retriever):
+def build_rag_chain(retriever, api_key):
 
     llm = ChatGoogleGenerativeAI(
         model=LLM_MODEL,
-        google_api_key=GOOGLE_API_KEY,
+       google_api_key=api_key,
         temperature=0
     )
 

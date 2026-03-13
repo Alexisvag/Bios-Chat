@@ -15,13 +15,17 @@ st.title("Analista de Documentos")
 
 import streamlit as st
 
-st.title("BIOS CHAT RAG")
+st.title("Bios Chat")
 
 api_key = st.text_input(
     "Ingrese su API Key de Gemini",
     type="password"
 )
 
+if not api_key:
+    st.warning("Debe ingresar API Key")
+    st.stop()
+    
 init_chat()
 
 uploaded_files = st.file_uploader(
@@ -48,7 +52,7 @@ if uploaded_files:
 
     retriever = vector_store.as_retriever()
 
-    rag_chain = build_rag_chain(retriever)
+    rag_chain = build_rag_chain(retriever, api_key)
 
     user_question = st.chat_input("Pregunta sobre el documento")
 
