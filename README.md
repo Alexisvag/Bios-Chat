@@ -139,39 +139,26 @@ Subir documento y hacer preguntas.
 
 - Carga de múltiples formatos
 - Arquitectura RAG
-
-Búsqueda semántica
-
-Respuestas sin alucinaciones
-
-Configuración modular
-
-Uso de variables de entorno
-
-Separación por capas
-
-Interfaz tipo chat
+- Búsqueda semántica
+- Respuestas sin alucinaciones
+- Configuración modular
+- Uso de variables de entorno
+- Separación por capas
+- Interfaz tipo chat
 
 🧪 Ejemplos de preguntas
+
 PDF / DOCX / TXT
-
-¿Cuál es el tema principal?
-
-Resume el documento
-
-¿Qué conclusiones hay?
-
-¿Qué datos se mencionan?
+- ¿Cuál es el tema principal?
+- Resume el documento
+- ¿Qué conclusiones hay?
+- ¿Qué datos se mencionan?
 
 XLSX
-
-¿Qué columnas tiene?
-
-¿Qué valores contiene?
-
-¿Cuál es el promedio?
-
-¿Cuántos registros hay?
+- ¿Qué columnas tiene?
+- ¿Qué valores contiene?
+- ¿Cuál es el promedio?
+- ¿Cuántos registros hay?
 
 🧩 Decisiones técnicas
 Uso de RAG
