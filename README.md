@@ -2,7 +2,7 @@
 
 ## 📌 Descripción
 
-Este proyecto implementa una aplicación basada en **RAG (Retrieval Augmented Generation)** que permite cargar documentos y realizar preguntas sobre su contenido utilizando un modelo de lenguaje (LLM), garantizando que las respuestas se generen únicamente a partir de la información contenida en los archivos cargados, evitando alucinaciones.
+Este proyecto implementa una aplicación basada en **RAG (Retrieval Augmented Generation)** que permite cargar documentos y realizar preguntas sobre su contenido utilizando un modelo de lenguaje **LLM (Large Language Model)**, garantizando que las respuestas se generen únicamente a partir de la información contenida en los archivos cargados, evitando alucinaciones.
 
 Formatos soportados:
 
@@ -127,14 +127,16 @@ Subir documento y hacer preguntas.
 
 ✅ Funcionalidades
 
-- Carga de múltiples formatos
-- Arquitectura RAG
-- Búsqueda semántica
-- Respuestas sin alucinaciones
-- Configuración modular
-- Uso de variables de entorno
-- Separación por capas
-- Interfaz tipo chat
+- Carga de múltiples formatos (PDF, DOCX, XLSX, TXT)
+- Arquitectura RAG (Retrieval Augmented Generation)
+- Fragmentación automática de documentos
+- Generación de embeddings semánticos
+- Almacenamiento vectorial con FAISS
+- Búsqueda semántica de contexto relevante
+- Generación de respuestas con LLM (Gemini)
+- Control de alucinaciones mediante prompt restringido
+- Interfaz tipo chat con Streamlit
+- Arquitectura modular por capas
 
 🧪 Ejemplos de preguntas
 
@@ -152,20 +154,32 @@ XLSX
 
 🧩 Decisiones técnicas
 
-- Uso de RAG
-- Permite evitar alucinaciones al usar contexto recuperado.
-- FAISS
-- Base vectorial rápida y local.
-- HuggingFace Embeddings
-- Modelo liviano y eficiente.
-- Gemini
-- Buen rendimiento y fácil integración.
-- Streamlit
-- Interfaz rápida para pruebas.
-- dotenv
-- Manejo seguro de credenciales.
-- LangChain LCEL
-- Arquitectura moderna para pipelines LLM.
+- Uso de arquitectura RAG  
+Permite generar respuestas basadas en contexto recuperado, reduciendo alucinaciones.
+
+- FAISS  
+Uso de FAISS como base vectorial local por su alto rendimiento y facilidad de integración.
+
+- HuggingFace Embeddings  
+Uso de embeddings livianos (all-MiniLM-L6-v2) por su eficiencia y compatibilidad con FAISS.
+
+- Gemini  
+Uso de Gemini como LLM por su buen rendimiento y fácil integración mediante API.
+
+- Streamlit  
+Uso de Streamlit para construir una interfaz interactiva tipo chat de forma rápida.
+
+- dotenv  
+Uso de variables de entorno para manejar credenciales de forma segura.
+
+- LangChain (LCEL)  
+Uso de LangChain Expression Language para construir pipelines RAG modulares.
+
+- Text Splitter  
+Fragmentación automática de documentos para mejorar la recuperación semántica.
+
+- Prompt control  
+Uso de prompts restringidos para obligar al modelo a responder solo con el contexto.
 
 🚀 Posibles mejoras futuras
 
