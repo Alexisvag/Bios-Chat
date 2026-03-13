@@ -161,55 +161,33 @@ XLSX
 - ¿Cuántos registros hay?
 
 🧩 Decisiones técnicas
-Uso de RAG
 
-Permite evitar alucinaciones al usar contexto recuperado.
-
-FAISS
-
-Base vectorial rápida y local.
-
-HuggingFace Embeddings
-
-Modelo liviano y eficiente.
-
-Gemini
-
-Buen rendimiento y fácil integración.
-
-Streamlit
-
-Interfaz rápida para pruebas.
-
-dotenv
-
-Manejo seguro de credenciales.
-
-LangChain LCEL
-
-Arquitectura moderna para pipelines LLM.
+- Uso de RAG
+- Permite evitar alucinaciones al usar contexto recuperado.
+- FAISS
+- Base vectorial rápida y local.
+- HuggingFace Embeddings
+- Modelo liviano y eficiente.
+- Gemini
+- Buen rendimiento y fácil integración.
+- Streamlit
+- Interfaz rápida para pruebas.
+- dotenv
+- Manejo seguro de credenciales.
+- LangChain LCEL
+- Arquitectura moderna para pipelines LLM.
 
 🚀 Posibles mejoras futuras
 
-Memoria conversacional
-
-Persistencia de índices
-
-API con FastAPI
-
-Dockerización
-
-Autenticación
-
-Multiusuario
-
-Despliegue en nube
-
-Logging
-
-Tests unitarios
-
-Streaming de respuestas
-
-Filtros por metadata
+- Memoria conversacional
+- Persistencia de índices
+- API con FastAPI
+- Dockerización
+- Autenticación
+- Multiusuario
+- Despliegue en nube
+- Logging
+- Tests unitarios
+- Streaming de respuestas
+- Filtros por metadata
 
