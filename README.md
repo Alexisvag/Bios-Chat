@@ -137,9 +137,8 @@ Subir documento y hacer preguntas.
 
 ✅ Funcionalidades
 
-Carga de múltiples formatos
-
-Arquitectura RAG
+- Carga de múltiples formatos
+- Arquitectura RAG
 
 Búsqueda semántica
 
