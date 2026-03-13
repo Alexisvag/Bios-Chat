@@ -1,4 +1,4 @@
-# 📄 BIOS CHAT RAG — Analizador de Documentos con Arquitectura RAG
+# 📄 BIOS CHAT — Analizador de Documentos
 
 ## 📌 Descripción
 
@@ -49,6 +49,7 @@ Usuario → Interfaz Streamlit → Cargador de documentos → Splitter → Embed
 
 ## 📂 Estructura del proyecto
 
+```
 bios-chat-rag/
 │
 ├── app.py
@@ -70,7 +71,7 @@ bios-chat-rag/
 ├── utils/
 ├── faiss_index/
 
-
+```
 
 ---
 
